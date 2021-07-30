@@ -1,0 +1,19 @@
+.mian {
+  height: 100vh;
+  &-header {
+    height: 60px;
+    color: #fff;
+    background: #001529;
+    line-height: 60px;
+    &-logo {
+      float: left;
+      width: 120px;
+      height: 32px;
+      margin: 14px 30px 14px 0;
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+  &-middle {
+    flex: 1;
+  }
+}
