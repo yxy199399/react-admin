@@ -5,4 +5,4 @@ const Loading: React.FC = () => {
   return <Spin />
 }
 
-export default Loading
+export default Loading;
