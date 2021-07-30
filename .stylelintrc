@@ -1,0 +1,12 @@
+{
+  "plugins": ["stylelint-scss"],
+  "extends": ["stylelint-config-standard", "stylelint-config-recess-order"],
+  "rules": {
+    "indentation": 2,
+    "value-list-comma-newline-after": null,
+    "value-list-comma-newline-before": null,
+    "at-rule-no-unknown": [true, {"ignoreAtRules" :[
+      "mixin", "extend", "content"
+    ]}]
+  }
+}

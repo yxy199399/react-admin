@@ -32,7 +32,9 @@
     "eject": "react-app-rewired eject",
     "eslint": "eslint ./",
     "lint": "eslint ./ --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "stylelint": "stylelint src/**/*.scss",
+    "stylelintfix": "stylelint src/**/*.scss --fix"
   },
   "browserslist": {
     "production": [
@@ -68,6 +70,10 @@
     "lint-staged": "^11.1.1",
     "node-sass": "^6.0.1",
     "prettier": "^2.3.2",
-    "pretty-quick": "^3.1.1"
+    "pretty-quick": "^3.1.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-recess-order": "^2.4.0",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.20.1"
   }
 }
