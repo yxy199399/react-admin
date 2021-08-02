@@ -53,6 +53,10 @@
       "pretty-quick --staged",
       "eslint --fix",
       "git add"
+    ],
+    "*.{less,css}": [
+      "stylelint --config  ./.stylelintrc --fix",
+      "git add"
     ]
   },
   "devDependencies": {
