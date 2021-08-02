@@ -55,7 +55,7 @@
       "git add"
     ],
     "*.{less,css}": [
-      "stylelint --config  ./.stylelintrc --fix",
+      "stylelint --fix",
       "git add"
     ]
   },
